@@ -30,6 +30,4 @@ struct Book: Object {
     var description: String {
         return "\(type.rawValue): \(name), by \(author), \(year), \(publisher). (\(color))"
     }
-    
-    
 }

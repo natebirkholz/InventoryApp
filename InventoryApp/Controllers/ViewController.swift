@@ -45,14 +45,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         cell.typeLabel.text = object.type.rawValue
         cell.descriptionLabel.text = object.description
         
-        switch object.type {
-        case .book:
-            cell.iconView.image = UIImage(named: "book")
-        case .car:
-            cell.iconView.image = UIImage(named: "car")
-        case .phone:
-            cell.iconView.image = UIImage(named: "phone")
-        }
+        cell.iconView.image = UIImage(named: object.type.rawValue)
         
         return cell
     }
