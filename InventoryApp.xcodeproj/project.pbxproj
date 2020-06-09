@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110DC9ED2490173400A15455 /* InventoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110DC9EC2490173400A15455 /* InventoryFactory.swift */; };
+		110DC9F0249020AB00A15455 /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110DC9EE249020AB00A15455 /* BookDetailViewController.swift */; };
+		110DC9F1249020AB00A15455 /* BookDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 110DC9EF249020AB00A15455 /* BookDetailViewController.xib */; };
+		110DC9F4249021F800A15455 /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110DC9F2249021F800A15455 /* CarDetailViewController.swift */; };
+		110DC9F5249021F800A15455 /* CarDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 110DC9F3249021F800A15455 /* CarDetailViewController.xib */; };
+		110DC9F8249022DD00A15455 /* PhoneDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110DC9F6249022DD00A15455 /* PhoneDetailViewController.swift */; };
+		110DC9F9249022DD00A15455 /* PhoneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 110DC9F7249022DD00A15455 /* PhoneDetailViewController.xib */; };
 		11F70D012490044700CA413E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F70D002490044700CA413E /* AppDelegate.swift */; };
 		11F70D032490044700CA413E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F70D022490044700CA413E /* SceneDelegate.swift */; };
 		11F70D052490044700CA413E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F70D042490044700CA413E /* ViewController.swift */; };
@@ -15,6 +22,13 @@
 		11F70D0D2490044B00CA413E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F70D0B2490044B00CA413E /* LaunchScreen.storyboard */; };
 		11F70D182490044B00CA413E /* InventoryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F70D172490044B00CA413E /* InventoryAppTests.swift */; };
 		11F70D232490044B00CA413E /* InventoryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F70D222490044B00CA413E /* InventoryAppUITests.swift */; };
+		11F70D35249005AD00CA413E /* ObjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F70D34249005AD00CA413E /* ObjectType.swift */; };
+		11F70D372490060500CA413E /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F70D362490060500CA413E /* Object.swift */; };
+		11F70D39249007F100CA413E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F70D38249007F100CA413E /* Car.swift */; };
+		11F70D3B2490080500CA413E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F70D3A2490080500CA413E /* Book.swift */; };
+		11F70D3D2490081400CA413E /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F70D3C2490081400CA413E /* Phone.swift */; };
+		11F70D40249010CB00CA413E /* ObjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F70D3E249010CB00CA413E /* ObjectTableViewCell.swift */; };
+		11F70D41249010CB00CA413E /* ObjectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F70D3F249010CB00CA413E /* ObjectTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		110DC9EC2490173400A15455 /* InventoryFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFactory.swift; sourceTree = "<group>"; };
+		110DC9EE249020AB00A15455 /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		110DC9EF249020AB00A15455 /* BookDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookDetailViewController.xib; sourceTree = "<group>"; };
+		110DC9F2249021F800A15455 /* CarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
+		110DC9F3249021F800A15455 /* CarDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarDetailViewController.xib; sourceTree = "<group>"; };
+		110DC9F6249022DD00A15455 /* PhoneDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneDetailViewController.swift; sourceTree = "<group>"; };
+		110DC9F7249022DD00A15455 /* PhoneDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhoneDetailViewController.xib; sourceTree = "<group>"; };
 		11F70CFD2490044700CA413E /* InventoryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventoryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F70D002490044700CA413E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11F70D022490044700CA413E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +70,13 @@
 		11F70D1E2490044B00CA413E /* InventoryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventoryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F70D222490044B00CA413E /* InventoryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryAppUITests.swift; sourceTree = "<group>"; };
 		11F70D242490044B00CA413E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F70D34249005AD00CA413E /* ObjectType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectType.swift; sourceTree = "<group>"; };
+		11F70D362490060500CA413E /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		11F70D38249007F100CA413E /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		11F70D3A2490080500CA413E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		11F70D3C2490081400CA413E /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		11F70D3E249010CB00CA413E /* ObjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTableViewCell.swift; sourceTree = "<group>"; };
+		11F70D3F249010CB00CA413E /* ObjectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ObjectTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +127,14 @@
 		11F70CFF2490044700CA413E /* InventoryApp */ = {
 			isa = PBXGroup;
 			children = (
+				11F70D332490058700CA413E /* Controllers */,
+				11F70D312490057200CA413E /* Models */,
+				11F70D322490057C00CA413E /* Views */,
 				11F70D002490044700CA413E /* AppDelegate.swift */,
-				11F70D022490044700CA413E /* SceneDelegate.swift */,
-				11F70D042490044700CA413E /* ViewController.swift */,
 				11F70D062490044700CA413E /* Main.storyboard */,
-				11F70D092490044B00CA413E /* Assets.xcassets */,
 				11F70D0B2490044B00CA413E /* LaunchScreen.storyboard */,
+				11F70D022490044700CA413E /* SceneDelegate.swift */,
+				11F70D092490044B00CA413E /* Assets.xcassets */,
 				11F70D0E2490044B00CA413E /* Info.plist */,
 			);
 			path = InventoryApp;
@@ -126,6 +156,42 @@
 				11F70D242490044B00CA413E /* Info.plist */,
 			);
 			path = InventoryAppUITests;
+			sourceTree = "<group>";
+		};
+		11F70D312490057200CA413E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11F70D34249005AD00CA413E /* ObjectType.swift */,
+				11F70D362490060500CA413E /* Object.swift */,
+				11F70D3A2490080500CA413E /* Book.swift */,
+				11F70D38249007F100CA413E /* Car.swift */,
+				11F70D3C2490081400CA413E /* Phone.swift */,
+				110DC9EC2490173400A15455 /* InventoryFactory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11F70D322490057C00CA413E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11F70D3E249010CB00CA413E /* ObjectTableViewCell.swift */,
+				11F70D3F249010CB00CA413E /* ObjectTableViewCell.xib */,
+				110DC9EE249020AB00A15455 /* BookDetailViewController.swift */,
+				110DC9EF249020AB00A15455 /* BookDetailViewController.xib */,
+				110DC9F2249021F800A15455 /* CarDetailViewController.swift */,
+				110DC9F3249021F800A15455 /* CarDetailViewController.xib */,
+				110DC9F6249022DD00A15455 /* PhoneDetailViewController.swift */,
+				110DC9F7249022DD00A15455 /* PhoneDetailViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11F70D332490058700CA413E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				11F70D042490044700CA413E /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +298,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				110DC9F5249021F800A15455 /* CarDetailViewController.xib in Resources */,
+				110DC9F1249020AB00A15455 /* BookDetailViewController.xib in Resources */,
 				11F70D0D2490044B00CA413E /* LaunchScreen.storyboard in Resources */,
 				11F70D0A2490044B00CA413E /* Assets.xcassets in Resources */,
+				11F70D41249010CB00CA413E /* ObjectTableViewCell.xib in Resources */,
+				110DC9F9249022DD00A15455 /* PhoneDetailViewController.xib in Resources */,
 				11F70D082490044700CA413E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +329,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F70D3D2490081400CA413E /* Phone.swift in Sources */,
+				110DC9ED2490173400A15455 /* InventoryFactory.swift in Sources */,
+				11F70D372490060500CA413E /* Object.swift in Sources */,
 				11F70D052490044700CA413E /* ViewController.swift in Sources */,
+				110DC9F0249020AB00A15455 /* BookDetailViewController.swift in Sources */,
+				110DC9F8249022DD00A15455 /* PhoneDetailViewController.swift in Sources */,
+				11F70D3B2490080500CA413E /* Book.swift in Sources */,
+				11F70D39249007F100CA413E /* Car.swift in Sources */,
+				11F70D40249010CB00CA413E /* ObjectTableViewCell.swift in Sources */,
+				110DC9F4249021F800A15455 /* CarDetailViewController.swift in Sources */,
 				11F70D012490044700CA413E /* AppDelegate.swift in Sources */,
 				11F70D032490044700CA413E /* SceneDelegate.swift in Sources */,
+				11F70D35249005AD00CA413E /* ObjectType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
